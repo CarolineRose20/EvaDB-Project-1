@@ -15,10 +15,10 @@ BOT_ID is the ID for the bot. This lets the application bypass the bot when savi
 Run flask_server.py to start the flask server and now it should be able to see your Slack Channel.
 
 # How to Use
-# General Messages
+## General Messages
 If you just want the bot to summarize the last x messages in the chat you have to write the command as @bot_name x
 EX. I want to grab the last 5 messages from the chat (this excludes any bot messages): @Bot 5
 
-# Messages from a Specific User
+## Messages from a Specific User
 If you just want the bot to summarize the last x messages sent by a specific user in the chat you have to write the command as @bot_name @user x
 EX. I want to grab the last message from a user @cm: @Bot @cm 1
