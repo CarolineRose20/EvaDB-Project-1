@@ -1,7 +1,8 @@
 from gpt4all import GPT4All
+import os
 
 
-llm = GPT4All("C:/Users/carca/AppData/Local/nomic.ai/GPT4All/llama-2-7b-chat.ggmlv3.q4_0.bin")
+llm = GPT4All(os.environ.get('GPT4ALL_PATH'))
 
 
 # Summarize a Single Message
