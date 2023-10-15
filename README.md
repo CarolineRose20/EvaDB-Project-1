@@ -10,7 +10,8 @@ This will create a link that you will then put in the Event Subscriptions URL li
 ## Step 3) Final Steps
 Install the required packages to be able to run everything. After this is done there are two lines of code you will need to edit so the app works for your server.
 You must edit the CHANNEL_ID and BOT_ID variables in the EvaDB.py they are towards the top. CHANNEL_ID is the channel ID for the channel the bot will live in.
-BOT_ID is the ID for the bot. This lets the application bypass the bot when saving messages so they do not crowd the Message Table
+BOT_ID is the ID for the bot. This lets the application bypass the bot when saving messages so they do not crowd the Message Table.
+Make sure your Paths are correct for your slack token and GPT4ALL file path.
 ## STEP 4) Start the Flask Server
 Run flask_server.py to start the flask server and now it should be able to see your Slack Channel.
 
